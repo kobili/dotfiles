@@ -1,0 +1,59 @@
+{
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.inheritEnv": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.db": "sqlite-viewer.option"
+    },
+    "workbench.tree.indent": 24,
+    "liveServer.settings.donotVerifyTags": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "none",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+    // macOS Modern Tweaks
+    "window.titleBarStyle": "native",
+    "window.nativeTabs": true,
+    "editor.minimap.enabled": false,
+    
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    // indent-rainbow
+    // "indentRainbow.includedLanguages": ["python"],
+    "indentRainbow.colors": [
+        "rgba(255, 0, 0, 0.2)",
+        "rgba(0, 255, 0, 0.2)",
+        "rgba(0, 226, 255, 0.2)",
+        "rgba(255, 0, 255, 0.2)"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "lldb.launch.expressions": "native",
+    "go.toolsManagement.autoUpdate": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.tabSize": 2
+    }
+}
